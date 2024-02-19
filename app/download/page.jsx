@@ -2,8 +2,8 @@
 
 import React from 'react';
 import ImageSlide from '@/components/Images';
-const Download = () => {
 
+const Download = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4">Welcome to Utils-App</h1>
@@ -31,7 +31,7 @@ const Download = () => {
       </ul>
 
   
-        <ImageSlide/>
+        {/* <ImageSlide/> */}
       
 
       <h2 className="text-2xl font-bold mb-4">Installation:</h2>
@@ -88,10 +88,13 @@ const Download = () => {
           <a href="https://github.com/Samandar-Jumanov" className="mr-4 text-blue-500 underline">GitHub</a>
         </div>
 
-        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mr-4">
-          Download CV
-        </button>
+       
 
+        <a href="./backend-cv.pdf" download="My CV">
+        {/* <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mr-4">
+          Download CV
+        </button> */}
+      </a>
       </footer>
 
     </div>
