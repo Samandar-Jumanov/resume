@@ -38,7 +38,7 @@ export default function Home() {
             href="#" 
             className="text-black-200 hover:text-white text-2xl bg-blue-500 hover:bg-blue-600 py-2 px-6 rounded"
             onClick={downloadPage}>
-            Download Util package || CV 
+            Check out my utils-app package  
           </button>
         </div>
       </header>

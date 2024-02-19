@@ -6,6 +6,7 @@ const ProjectCard = ({ projects }) => {
   }
 
   return (
+    
     <>
       {projects ? (
         projects.map((each) => (
