@@ -1,7 +1,6 @@
 "use client"
 
 import React from 'react';
-import ImageSlide from '@/components/Images';
 
 const Download = () => {
   return (
