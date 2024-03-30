@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { FaArrowLeft, FaArrowRight, FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
+import ContactComponent from "../../components/contact-me";
 
 const VideoShowcase = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -56,7 +57,9 @@ const VideoShowcase = () => {
             </p>
           </div>
         </div>
+      < ContactComponent />
       </div>
+
     </div>
   );
 };

@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import BottomNavBar from "../components/navigation";
 import { GlobalContextProvider } from "../components/context";
+import  ToasterContext from "../components/toaster-context"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -15,9 +16,9 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
        <BottomNavBar/>
       < GlobalContextProvider  >
+      < ToasterContext />
         {children}
       </ GlobalContextProvider >
-
         </body>
     </html>
   );
