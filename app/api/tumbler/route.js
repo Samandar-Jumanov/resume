@@ -2,7 +2,7 @@ import OAuth from 'oauth-1.0a';
 import crypto from 'crypto-js';
 import fetch from 'node-fetch';
 
-export default async (req, res) => {
+export const handler  =  async (req, res) => {
   const oauth = OAuth({
     consumer: {
       key: process.env.KEY,
