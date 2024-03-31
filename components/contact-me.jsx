@@ -40,9 +40,7 @@ const ContactComponent = () => {
   return (
     <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg mx-auto mt-10 w-11/12 lg:w-90%">
       <h2 className="text-2xl font-bold text-center mb-6">Connect With Me</h2>
-      {/* Social and contact info */}
       <div className="flex flex-col items-center justify-center gap-6">
-        {/* Social Links */}
         <a href="https://linkedin.com/in/samandar-jumanov-510399286" className="text-blue-300 hover:underline flex items-center gap-2">
           <FaLinkedin size="20"/> LinkedIn: Samandar Jumanov
         </a>
