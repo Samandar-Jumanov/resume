@@ -3,7 +3,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/navigation'; 
 import { FaTerminal } from 'react-icons/fa';
-// import SkillsComponent from '@/components/Skills';
 import SkillsComponent from "../components/Skills"
 import ShowcaseComponent from "../components/showcase";
 import ServicesComponent from "../components/service";
