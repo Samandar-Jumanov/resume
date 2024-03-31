@@ -2,7 +2,8 @@ import OAuth from 'oauth-1.0a';
 import crypto from 'crypto-js';
 import fetch from 'node-fetch';
 
-export const handler  =  async (req, res) => {
+export const GET  =  async (req, res) => {
+  
   const oauth = OAuth({
     consumer: {
       key: process.env.KEY,
@@ -29,10 +30,8 @@ export const handler  =  async (req, res) => {
     });
 
     if (!response.ok) throw new Error('Failed to obtain request token');
-
-    conso.log(response.body)
     const text = await response.text();
-    res.status(200).json({ success: true, data: text });
+    return new Response(JSON.stringify({succes : true , data : text}) )
   } catch (error) {
     console.error('Error:', error);
     res.status(500).json({ success: false, error: error.message });

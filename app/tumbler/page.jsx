@@ -5,7 +5,7 @@ import React from 'react';
 const Tumber = () => {
   const handleAuth = async () => {
     const res = await fetch('/api/tumber');
-    const data = await res.body 
+    const data = await res.body
     const params = new URLSearchParams(data);
     const oauthToken = params.get('oauth_token');
 
