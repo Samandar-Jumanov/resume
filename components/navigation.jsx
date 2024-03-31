@@ -9,7 +9,7 @@ const BottomNavBar = () => {
 
   const navItems = [
     { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
+    { name: 'Client', path: '/client' },
     { name: 'Posts', path: '/posts' },
     // { name: 'Posts', path: '/posts' },
   ];
