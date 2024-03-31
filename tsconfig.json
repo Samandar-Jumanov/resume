@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "app/posts/page.jsx"  ],
+, "app/posts/page.jsx", "app/tumbler/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
