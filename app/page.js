@@ -10,7 +10,7 @@ export default function Home() {
   const router = useRouter();
 
   function downloadPage() {
-    router.push("/download"); 
+    router.push("/docs"); 
   };
 
   return (

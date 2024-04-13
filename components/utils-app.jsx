@@ -1,10 +1,7 @@
-"use client"
 
-import React from 'react';
-
-const Download = () => {
-  return (
-    <div className="container mx-auto px-4 py-8">
+export const UtilsApp = ( ) =>{
+      return (
+         <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4">Welcome to Utils-App</h1>
 
       <p className="mb-6">
@@ -97,7 +94,5 @@ const Download = () => {
       </footer>
 
     </div>
-  );
-};
-
-export default Download;
+      )
+}
