@@ -22,7 +22,7 @@ export default function Home() {
         <div className="text-center my-8">
           <button onClick={downloadPage} className="bg-green-600  text-white font-bold py-1 px-4 md:px-6 rounded transform  flex items-center justify-center space-x-2 min-w-[160px] mx-auto">
             <FaTerminal className="text-base" />
-            <span className="text-sm">Check out latest aps and api</span>
+            <span className="text-sm">Check out latest apps and api</span>
           </button>
         </div>
         <ServicesComponent />
