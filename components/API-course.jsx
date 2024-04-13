@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import APILessonDocs from './api-course-sell/api-course-[lesson]';
 import APIUserDocs from './api-course-sell/api-course-[users]';
+import APICourseDocs from "./api-course-sell/api-course-sell[course]"
 
 const APICourseSellDocs = () => {
     const [selectedDoc, setSelectedDoc] = useState('APIUserDocs');
@@ -22,11 +23,16 @@ const APICourseSellDocs = () => {
                 >
                     <option value="APIUserDocs">API User Docs</option>
                     <option value="APILessonDocs">API Lesson Docs</option>
+                    <option value="APICourseDocs">API Course Docs</option>
+                    
                 </select>
             </label>
 
             {selectedDoc === 'APIUserDocs' && <APIUserDocs />}
             {selectedDoc === 'APILessonDocs' && <APILessonDocs />}
+            {selectedDoc === 'APICourseDocs' && <APICourseDocs />}
+
+            
         </div>
     );
 };
