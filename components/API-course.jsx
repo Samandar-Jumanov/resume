@@ -3,6 +3,7 @@ import APILessonDocs from './api-course-sell/api-course-[lesson]';
 import APIUserDocs from './api-course-sell/api-course-[users]';
 import APICourseDocs from "./api-course-sell/api-course-sell[course]";
 import APIOrderDocs from "./api-course-sell/api-course-[order]";
+import APINotificationDocs from "./api-course-sell/api-course-[notification]";
 
 const APICourseSellDocs = () => {
     const [selectedDoc, setSelectedDoc] = useState('APIUserDocs');
@@ -26,6 +27,7 @@ const APICourseSellDocs = () => {
                     <option value="APILessonDocs">API Lesson Docs</option>
                     <option value="APICourseDocs">API Course Docs</option>
                     <option value="APIOrderDocs">API Order Docs</option>
+                    <option value="APINotificationDocs">API Notification Docs</option>
                 </select>
             </label>
 
@@ -33,6 +35,7 @@ const APICourseSellDocs = () => {
             {selectedDoc === 'APILessonDocs' && <APILessonDocs />}
             {selectedDoc === 'APICourseDocs' && <APICourseDocs />}
             {selectedDoc === 'APIOrderDocs' && <APIOrderDocs />}
+            {selectedDoc === 'APINotificationDocs' && <APINotificationDocs />}
         </div>
     );
 };
