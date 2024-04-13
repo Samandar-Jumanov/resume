@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "app/posts/page.jsx", "app/tumbler/page.jsx"  ],
+, "app/posts/page.jsx", "app/tumbler/page.jsx", "components/api-course-sell/api-course-[lesson].jsx"  ],
   "exclude": [
     "node_modules"
   ]

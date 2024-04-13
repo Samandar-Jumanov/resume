@@ -1,17 +1,17 @@
 "use client"
 
 import React from 'react';
-import APIUserDocs from '../../components/API-course';
+import APICourseSellDocs from '../../components/API-course';
 import  {  UtilsApp } from "../../components/utils-app";
 
-const Download = () => {
+const Docs = () => {
   return (
       <>
 
-       <APIUserDocs/>
+       <APICourseSellDocs/>
       
       </>
   );
 };
 
-export default Download;
+export default Docs;
